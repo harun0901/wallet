@@ -1,0 +1,132 @@
+First, I want to be clear, the website has to be compatible with all devices, as Smart phones + Desktop
+It will have 2 languages, 1 - English, 2 - Arabic (it changes automatically depending on the country/region)
+
+the main idea of this project is that investors going to see my Idea, and deposit/transfer their money to a specific wallet.
+I would rather to give every customer a new address to send cryptocurrencies to. every Customer gets his own for example USDT / ETH / BTC address to send money to.
+There will be website balance, **the customer should buy balance first then choose a subscription plan**.
+There will be attractive pages, 1 live page for the customer while he is logged in.
+the live page will contain specific calculations to get the number of current profits.
+and there will be referrals system / Affiliate marketing.
+
+that is the main idea of the project as simple as possible.
+now let's get in details !
+-
+
+There will be specific pages for visitors, and specific pages for (logged in) customers, and specific pages for who has subscribed already.
+there will be a small difference in pages between logged in customers only and the subscribed ones.
+
+Visitors (not logged in)
+1 - Main page
+2 - Register page
+3 - Login page
+4 - Subscribe page
+5 - FAQ + ToS page
+6 - Contact page
+(we might add more pages)
+-
+Logged in customers (not subscribed yet)
+1 - Main page
+2 - Subscribe page
+3 - Live page ( already described it above and will clarify it more later, but in this situation, it will not calculate anything .. it will explain to the customer how this live page going to work and how he is going to get profits)
+4 - FAQ + ToS page
+5 - Contact page
+(we might add more pages)
+-
+Logged in subscribed customers
+1 - Main page
+2 - Subscribe page
+3 - Transactions + Live page ( same as not subscribed customer, it will explain how it works, but it will actually calculate the profits for him depending on his subscription plan and It will include Transactions history)
+4 - FAQ + ToS page
+5 - Contact page
+( we might add more pages later)
+-
+let's go deep into every page details
+(Main page)
+It will be attractivly designed, the whole Idea of the design is to play in the visitor/customer psychology, boosting his adrenaline and making him comfortable staying there. there will be the main idea described in details with attractive designs and explaining to him everything about why he should invest with us and how he is going to get profits. and in the bottom there will be reviews about the project. underneath it might be something like every other website, words(links) for the other pages or parts to move directly to them.
+-
+(Register page)
+There the customer should put
+First, Last names
+Email address
+Password
+Phone number
+his wallet address ( the one he wants to send his profits to )
+simple robot captcha to prevent any bots/brute forcing
+-
+(Login page)
+Email address
+Password
+2FA Confirmation
+simple robot captcha
+-
+(Subscribe page)
+There will be different subscription plans, they will be formed as rectangles, every subscription should have a Title, and then have details underneath it.
+The subscriptions will have different details like, If you choose for example the 100 ~ 500$ one then you will get weekly 15% profits. If you choose the second subscription for example the one between 500 ~ 1000$ then you are going to get weekly 20% profits and so on ! It will be more detailed but It should look simple for you at first to make everything clear in your head.
+-
+(FAQ + ToS page)
+Here It doesn't need any explain, QA (Questions Answered) and ToS (Terms of Service) includes Rights
+-
+(Contact page)
+It should include how are you going to contact us from email, live chat or put your info into the formular and explain why you've contacted us.
++ Add everyone of the team picture, info about him & contact email.
+-
+(Transactions / Live calculated + detailed page)
+It should include calculated results of the profits
+It will be calculated through his subscription plan + his deposit
+the profits are weekly, but the calculations should be live, which means it will be refreshed every minute. If that is too fast then every 5 minutes. If you have other opinion about it just tell me.
+It should contain Transactions history + Current balance & Live profits refreshing infront of him in attractive design and his profits of his invited members and their names + how many percentage he has got from them.
+Invited members profits should be on the same page but separate from the main invested amount profits.
+It will be so good if there is something like analytics lined indicator of the current balance + all his profits for example 2 lines showing him his investment development. There is going to be the next payout date, or the next possible date to withdraw his new week profits. EVERY CUSTOMER HAS DIFFERENT DATE OF WEEK PROFITS ! it depends on when he subscribed. not all of them have exactly a date together to get weekly profits. After his week ends, the customer should have 3 options to choose from. 1- Withdraw the profits. 2- include/deposit his profits to his main subscription so he can get more profits with bigger invested money. 3- He can let the profits inside the website as a balance.
+As I requested, you've got to have knowledge in Databases, we need to create database for the information and link everything to the website.
+-
+
+Now we described what every page is about.
+There is more deeper information to explain now
+The Transcations, the deposits and subscription plans.
+The Customer should buy our website balance to subscribe with a specific subscription.
+that means, for example if he wants to choose subscription 2 ( 500 ~ 1000$ )
+He have to buy balance, once he have balance in that range he can use his balance to buy this subscription.
+Admin should've more pages and no one should have them other than the admin himself.
+There should be a page includes every customer's transaction, in the specified time, date and specific ID, Wallet and price. There should be another page includes every customer's profits he got for this week & all his profits & how much he is getting for the referrals system and when is his next date to withdraw week profits ( It should be calculated from his first day of subscription) < ( profits are depending on his subscription + how much he did invest + if he has invited members to the website, it should all be calculated as percentage %). Another page for every customer's referral system, includes which members he's invited and how much profits he got from them.
+
+
+Referrals System / Affiliate Marketing
+-
+Every customer has his own link to invite members from. The link will directly move the invited member to a register page. (If he moved to another page and came back to register he will stay invited by the same member)
+As I included the referrals system before you might have already understood it, I would like to add more information.
+There will be a fixed bonus & percentage for the affiliate marketer once the member he invited (did deposit money and subscribe)
+If the member he invited didn't deposit money and subscribe then it will not be calculcated as an invited member.
+Admins will have the ability to change the fixed bonus and percentage. Admin will have full control on everything.
+Admin might make the fixed bonus 5$ and (5 %) percentage of the invited member invested money. by the way he will not get his money from the invited member exactly. he will just get calculated % of the invited member investment amount.
+Admin should've a customer's Transaction page, there should be more details like did the customer withdraw his week profits or not.
+Everything should be automatic, register, login, email confirmation, phone confirmation, deposits/transactions. just the withdrawal is manual and that is normal.
+Admin has control on the investors subscription. That means admin can remove, edit, cancel or add something on the investors subscription.
+Admins has control on the invited members, they can remove/edit any investors invited members. Admin can change the 5$ bonus and 5% of the referral system as he like of the public or a specfic investor. that means he can change it for everyone/all members together or If he wants .. he can change it for only 1 member/investor specifically.
+-
+Payment system should be in steps similar to this
+1 - login
+2 - go to deposit money, select specific amount
+3 - he is going to get an address to transfer money to. (EVERY CUSTOMER GETS DIFFERENT ADDRESS)
+4 - after the transaction is confirmed, the money should be as balance in his account on the website.
+5 - he goes to subscription plans page and choose one, write a specific amount in that subscription and click on choose then he is going to get a pop up message that asks him (confirmation) about his choice and he should press on YES or Accept.
+Then he gets  a message that confirms his money has been invested and everything works fine and that he should spectate his profits in the live page.
+-
+I forgot something important, there should be an edit profile page for the members, it's something basic actually on every website.
+-
+The live page should be really good designed to increase or boost the investors psychology. that is so important. so he can't leave the page and keeps watching the profits changing and increasing.
+-
+There should be notify system for the investors.
+it notifies him everyday (in the website only no need for sms or something else) about his new profits and how many remaining days to get control and get his full profits of the week.
+-
+Admin should have notify system too, every customer invests or asks for withdrawal, the admin should get notified as fast as possible, sound notification, email or active notification with a sound inside the admins page directly. the notification message should include the investor's name, how much money he has invested or asked to withdraw and his wallet address that he wants to withdraw his money to.
+-
+There should be support chat included on the right or left side of the page. on the bottom of the screen !
+Member can press on that support icon and fill in the blanks (email address, full name) and message chat.
+If the support is online then the support should hear a notification sound of a new support request.
+If the support is offline, the member should get a message that the support is currently offline and his message should be saved in the support chat and member should be told that the answer will be sent to his email as soon as possible.
+-
+the reviews in the main page should include member's photo, name and message.
+-
+BTC/USDT/ETH are automatically calculated in USD! the same in opposite.
+-
+the 15 ~ 20%, 100 ~ 500$, 500 ~ 1000$ examples are just as we said (examples). We can control them.

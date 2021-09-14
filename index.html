@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cyptocurrency</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="./web3.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+      <div class="buttonblock">
+        <button id="create" onclick="CreateWallet()">Create Wallets</button>
+        <button id="show" onclick="Show()">Show Balance</button>
+        <button id="Send" onclick="Send()">Send Tokenes</button>
+      </div>
+      <div id="createwallet" style="display:none;">
+        <p><span>New Wallet Address:</span><span id="walletAddress"></span></p>
+        <p><span>New Wallet PrivateKey:</span><span id="walletPrivateKey"></span></p>
+      </div>
+      <div id="showBalance" style="display:none;">
+        <label>Please insert your address and Click show button</label>
+        <input type="text" id="showbalanceaddress"/> <button id="show1" onclick="BalanceOfWallet()">Show</button>
+        <p><span>Show Balance of Wallet:   </span><span id="balanceofwallet"></span></p>
+      </div>
+      <div id="sendtoken" style="display:none;">
+        <input type="text" id="sendaddress"  placeholder="Please insert sendaddress" />
+        <input type="text" id="receiveaddress" placeholder="Please insert receiveaddress" />
+        <input type="text" id="amount" placeholder="Please insert amount" />
+        <input type="text" id="privatekey" placeholder="Please insert privatekey" />
+        <button id="send1" onclick="SendToken()">Send</button>
+      </div>
+
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+    
+
+</body>
+<script src="./token.js"></script>
+</html>
